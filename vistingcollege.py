@@ -172,13 +172,28 @@ st.markdown("""
 
 # US Top 50 示例列表
 top_50_colleges = [
-    "Massachusetts Institute of Technology (MIT)", "Princeton University",
+    "Princeton University", "Massachusetts Institute of Technology (MIT)", 
     "Harvard University", "Stanford University", "Yale University",
-    "University of Pennsylvania", "California Institute of Technology",
+    "University of Pennsylvania", "California Institute of Technology (Caltech)",
     "Duke University", "Brown University", "Johns Hopkins University",
     "Northwestern University", "Columbia University", "Cornell University",
     "University of Chicago", "University of California, Berkeley",
-    "University of California, Los Angeles (UCLA)", "New York University (NYU)"
+    "University of California, Los Angeles (UCLA)", "Rice University",
+    "Dartmouth College", "Vanderbilt University", "University of Notre Dame",
+    "University of Michigan--Ann Arbor", "Georgetown University",
+    "Washington University in St. Louis", "Emory University",
+    "University of Virginia", "Carnegie Mellon University",
+    "University of Southern California (USC)", "University of California, San Diego",
+    "University of Florida", "University of North Carolina at Chapel Hill",
+    "Wake Forest University", "Tufts University", "University of California, Santa Barbara",
+    "University of California, Irvine", "University of Rochester",
+    "Boston College", "Georgia Institute of Technology (Georgia Tech)",
+    "University of California, Davis", "William & Mary",
+    "University of Texas at Austin", "Boston University",
+    "University of Illinois Urbana-Champaign", "University of Wisconsin-Madison",
+    "Case Western Reserve University", "University of Georgia",
+    "Ohio State University--Columbus", "Purdue University--Main Campus",
+    "Santa Clara University", "Lehigh University", "Pepperdine University"
 ]
 
 # 交互区设计
@@ -210,4 +225,5 @@ if start_search:
             """, unsafe_allow_html=True)
 
             st.write("")
+
             st.info("💡 **顾问贴士**：访校名额通常非常紧俏，建议您参考上方排期表，调好闹钟提前在官网锁定行程！")
